@@ -8,3 +8,7 @@ This document is a requirement specification for a hosting router device to run 
 - **Main idea: One box for several applications! But extremely affordable.** 
 
 To be able to work close to the kernel, but still run 3rd party apps in a completely isolated environment and ensure high portability and security, containers must be used. 
+
+The here documents were primarily prepared as a binding supplement to tendering procedures. 
+
+Nevertheless, any industry participant who becomes aware of these documents will be invited to submit an own-initiative offer to its customers, or to have one of its partners submit it, with reference to the documents found here.
