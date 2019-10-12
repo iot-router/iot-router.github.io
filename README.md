@@ -1,5 +1,5 @@
 # IoT-Router Requirements
-A requirements convention must be achieved for an affordable mobile IoT Internet router and for hosting IoT agents for Smart Home and other third-party applications.
+Common creation a requirements convention for an affordable mobile IoT Internet router and for hosting IoT agents for Smart Home and other third-party applications to achieve synergies across the industries and projects.
 
 ## Introduction
 
