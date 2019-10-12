@@ -1,12 +1,12 @@
-Revision History
+#IoT-Router Requirements Convention
+
+##Revision History
 
 | **Date** | **Revision** | **Description** |
 | --- | --- | --- |
-| 2019-09-24 | Rev 1.0 | Initial Version of the Requirement Document |
-| 2019-10-08 | Rev 1.1 | Inclusion of 5G and 4G and unification |
-| 2019-10-09 | Rev 1.11 | Error correction of the reference values |
+| 2019-10-12 | Rev 1.0 | Initial Version of the Requirement Document |
 
-Requirement types
+##Requirement types
 
 | **Status** | **Description** |
 | --- | --- |
@@ -14,11 +14,11 @@ Requirement types
 | SHOULD | Requirement which should be met, but which is not absolute. |
 | CAN | Optional requirement which will strengthen the offering. |
 
-_Note:_ _Please keep in mind that the current SHOULD &amp; CAN requirements may already become MUST in the course of the next tender. For fast-moving consumer goods, up to 2 tenders per year are not unusual._
+_Note: Please keep in mind that the current SHOULD &amp; CAN requirements may already become MUST in the course of the next tender. For fast-moving consumer goods, up to 2 tenders per year are not unusual._
 
 **Minimal functionality requirements on the hosting device and on/by the Smart Home Container**
 
-Core requirements
+##Core requirements
 
 | **ID** | **Status** | **Description** |
 | --- | --- | --- |
@@ -37,7 +37,7 @@ Core requirements
 | G13 | MUST | Upgrade to newer or later versions of _OpenWrt_, including 19.07, within a maximum of 6 months. |
 | G14 | MUST | The initial board support package must be available at Mainline _OpenWrt_ prior to shipment to the end customer. |
 
-Support for operation and quality of service
+##Support for operation and quality of service
 
 | **ID** | **Status** | **Description** |
 | --- | --- | --- |
@@ -57,7 +57,7 @@ Support for operation and quality of service
 | Q14 | SHOULD | Use of instances on preferred cloud platforms for the cloud functionalities required by the manufacturer as part of the implementation for production operations. Depending on the requirements or suitability, these are e.g. Exoscale ([https://www.exoscale.com/](https://www.exoscale.com/)) or Cumulocity IoT ([https://cumulocity.com)](https://cumulocity.com)). |
 | Q15 | SHOULD | Support for remote management via TR-069 and associated additional TRs. Source code and samples for custom parameter provisioning provided. |
 
-Hardware and related requirements
+##Hardware and related requirements
 
 | **ID** | **Status** | **Description** |
 | --- | --- | --- |
@@ -73,7 +73,7 @@ Hardware and related requirements
 | H10 | MUST | Battery backup. Min. 2 hours of full functionality with monitoring of battery status and battery life cycle including virtual API. DIY battery replacement. |
 | H11 | MUST | Compliance with requirements of latest version Z/IP Gateway SDK.\* |
 | H12 | MUST | Compliance with requirements of latest version ZigBee SDK.\* |
-| H13 | MUST/SHOULD | Wi-Fi SoC with exposed channel state information (CSI).MUST if ZigBee/Zwave hardware support is provided via an external pluggable transceiver module, otherwise SHOULD. |
+| H13 | MUST/SHOULD | Wi-Fi SoC with exposed channel state information (CSI). **MUST** if ZigBee/Zwave hardware support is provided via an external pluggable transceiver module, otherwise **SHOULD**. |
 | H14 | SHOULD | Tamper switch, which signals access to the battery and SIM card area, e.g., for sabotage detection. |
 | H15 | SHOULD | Embedded SIM (MFF2 eSIM) support. |
 | H16 | SHOULD | Built-in siren with min 100dB; adjustable |
@@ -81,7 +81,7 @@ Hardware and related requirements
 | H18 | CAN | HDMI connection with the communication channels: Display Data Channel (DDC), Transition-Minimized Differential Signaling (TMDS), Consumer Electronics Control (CEC), HDMI Ethernet Channel (HEC)and Content protection (HDCP) according to the latest HDMI standard. |
 | H19 | CAN | Audio interfaces such as microphone with hardware kill switch and speaker that meet the requirements of leading voice assistance services. |
 
-Developer support requirements
+##Developer support requirements
 
 | **ID** | **Status** | **Description** |
 | --- | --- | --- |
@@ -93,7 +93,7 @@ Developer support requirements
 | D6 | SHOULD | Virtualized version of platform for easy testing and debugging. |
 | D7 | SHOULD | Remote speedtest tools. |
 
-Regulatory and other certification requirements
+##Regulatory and other certification requirements
 
 | **ID** | **Status** | **Description** |
 | --- | --- | --- |
@@ -101,7 +101,7 @@ Regulatory and other certification requirements
 | R2 | MUST | Complies with all Z-Wave, Zigbee and RF standards and regulations in the specified regions/countries to be certified or approved. The certifications by testing institutes must be documented if required by the standards. |
 | R3 | SHOULD | Wi-Fi EasyMesh certification. |
 
-Software adaptation requirements
+##Software adaptation requirements
 
 | **ID** | **Status** | **Description** |
 | --- | --- | --- |
@@ -121,16 +121,16 @@ Software adaptation requirements
 
 \* Well defined and comprehensive API&#39;s MUST be provided for integration into applications. If existing chip vendor driver APIs are not natively available for _OpenWrt_, the driver APIs from their Linux-based SDKs MUST be ported to _OpenWrt_ by the device vendor. The general provision of all driver APIs is done as an integrated part of the router FW Image/Build.
 
-References:
+###References:
 
-- --Z/IP Gateway SDK as part of via SiLabs development tool &quot;Simplicity Studio&quot;; current version 7.11.x
-- --ZigBee SDK 6.x
+- Z/IP Gateway SDK as part of via SiLabs development tool &quot;Simplicity Studio&quot;; current version 7.11.x
+- ZigBee SDK 6.x
 
 \*\* A safe CPU load on the host device of maximum 85% MUST be maintained under the assumption that 3-5 lightweightcontainer apps with a load comparable to the SH client are executed simultaneously.
 
-**Minimal functional requirements on the hosting device due to additional service agents, clients and apps running in a container.**
+#Minimal functional requirements on the hosting device due to additional service agents, clients and apps running in a container.
 
-Monitoring and protection service &quot;M\_namespace&quot;
+##Monitoring and protection service &quot;M\_namespace&quot;
 
 Basic requirements that apply through a protection service designed for the home network and all connected (IoT) devices.
 
@@ -145,11 +145,11 @@ Conntrack | ebtables | iptables-mod-conntrack-extra | iptables-mod-ipmark | ipta
 | M6 | SHOULD | LXC Containers are run in the same Network Space as the HOST for proper traffic steering. |
 | M7 | SHOULD | LXC Containers have to have an ability to run iptables commands. |
 
-Channel State Information (CSI) service &quot;C\_namespace&quot;
+##Channel State Information (CSI) service &quot;C\_namespace&quot;
 
 Basic requirements that apply when Channel State Information (CSI) is supported.
 
-| **ID** | **Status** | **Description       ** |
+| **ID** | **Status** | **Description** |
 | --- | --- | --- |
 | C1 | MUST | Requires about 10%-15% of CPU resources (based on MIPS MT7621S Single-Core 880 MHz CPU). |
 | C2 | MUST | Requires about 2 MB of RAM resources. |
@@ -160,7 +160,7 @@ Basic requirements that apply when Channel State Information (CSI) is supported.
 | C7 | MUST | Send and Receive ICMP packets to/from connected WiFi devices. |
 | C8 | MUST | Access to WiFi statistics of connected devices. See Channel State Information (CSI) requirement table. |
 
-Channel State Information (CSI) requirement table
+##Channel State Information (CSI) requirement table
 
 Detail requirements that apply when Channel State Information (CSI) is supported.
 
