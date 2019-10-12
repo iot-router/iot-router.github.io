@@ -24,16 +24,10 @@ Core requirements
 | --- | --- | --- |
 | G1 | MUST | Linux platform. ARM or MIPS SoC families supported by OpenWrt Project ([https://openwrt.org](https://openwrt.org/)). |
 | G2 | MUST | Firmware image based on latest stable version of OpenWrt Linux distribution (or OpenWrt embedded in frameworks like prpl) image with LXC enabled, templates and configured namespaces with root accounts._Note:_ _The current stable version series of OpenWrt is 18.06, with v18.06.4 being the latest service release of the series, released on July 1st 2019._ |
-| G3 | MUST | At least two usable SH namespace processor cores from the CPUs of the host device with sufficient performance. \*\*
-_For comparison__: On a gateway with MIPS Single-Core 880 MHz CPU (MT7621S), the utilization by the overall system, i.e. SH application incl._ _OpenWrt_ _14.07, etc., is about_ **30% on average** _._ |
-| G4 | MUST | Sufficient free flash memory for the SH namespace.
-_For comparison:_ _On a gateway with 256MB flash memory, the consumption by the overall system, i.e. SH application incl._ _OpenWrt_ _14.07, libs/bins, etc., is currently_ **around 80MB** _.__Temporary logs and recordings are not included._ |
-| G5 | MUST | Sufficient free RAM for the SH namespace.
-_For comparison:_ _On a gateway with 512MB RAM, the consumption by the overall system, i.e. SH application incl._ _OpenWrt_ _14.07, libs/bins, etc., is currently_ **around 208MB** _._ |
-| G6 | MUST | RF-protocol support for:
-- --Z-Wave Plus EU _(700 series chips PREFERRED, may be 500 series chip EXCEPT ZM5304 module)_
-- --ZigBee 3.0
-_Note__: Can be, although not preferred, a secured external pluggable transceiver module, but must be an integral part of the overall offer._ |
+| G3 | MUST | At least two usable SH namespace processor cores from the CPUs of the host device with sufficient performance. _For comparison__: On a gateway with MIPS Single-Core 880 MHz CPU (MT7621S), the utilization by the overall system, i.e. SH application incl._ _OpenWrt_ _14.07, etc., is about_ **30% on average** _._ |
+| G4 | MUST | Sufficient free flash memory for the SH namespace._For comparison:_ _On a gateway with 256MB flash memory, the consumption by the overall system, i.e. SH application incl._ _OpenWrt_ _14.07, libs/bins, etc., is currently_ **around 80MB** _.__Temporary logs and recordings are not included._ |
+| G5 | MUST | Sufficient free RAM for the SH namespace._For comparison:_ _On a gateway with 512MB RAM, the consumption by the overall system, i.e. SH application incl._ _OpenWrt_ _14.07, libs/bins, etc., is currently_ **around 208MB** _._ |
+| G6 | MUST | RF-protocol support for:- --Z-Wave Plus EU _(700 series chips PREFERRED, may be 500 series chip EXCEPT ZM5304 module)_- --ZigBee 3.0 _Note__: Can be, although not preferred, a secured external pluggable transceiver module, but must be an integral part of the overall offer._ |
 | G7 | MUST | 2 x SSID Wi-Fi 2.4 GHz + 5 GHz (IEEE 802.11b/g/n and 802.11a/n/ac), but SHOULD be more, while 1 x SSID is exclusive managed by the SH namespace. |
 | G8 | MUST | 5G NR OR 4G LTE Cat.6 (upwards and 3G fallback) with EU bands. |
 | G9 | MUST | Ethernet port(s) automatically switch between LAN and WAN mode. |
@@ -79,8 +73,7 @@ Hardware and related requirements
 | H10 | MUST | Battery backup. Min. 2 hours of full functionality with monitoring of battery status and battery life cycle including virtual API. DIY battery replacement. |
 | H11 | MUST | Compliance with requirements of latest version Z/IP Gateway SDK.\* |
 | H12 | MUST | Compliance with requirements of latest version ZigBee SDK.\* |
-| H13 | MUST /
-SHOULD | Wi-Fi SoC with exposed channel state information (CSI).MUST if ZigBee/Zwave hardware support is provided via an external pluggable transceiver module, otherwise SHOULD. |
+| H13 | MUST/SHOULD | Wi-Fi SoC with exposed channel state information (CSI).MUST if ZigBee/Zwave hardware support is provided via an external pluggable transceiver module, otherwise SHOULD. |
 | H14 | SHOULD | Tamper switch, which signals access to the battery and SIM card area, e.g., for sabotage detection. |
 | H15 | SHOULD | Embedded SIM (MFF2 eSIM) support. |
 | H16 | SHOULD | Built-in siren with min 100dB; adjustable |
@@ -193,4 +186,4 @@ Detail requirements that apply when Channel State Information (CSI) is supported
 | I18 | SHOULD | Antenna Permutation | MUST if possible Antenna Permutation, but depending on driver and manufacturer, there may not be Antenna Permutation. |
 | I19 | SHOULD | CSI for Multi-Devices | Parallel reporting of WiFi statistics (including CSI) from more than one device connected. Only applies in Access Point mode. |
 
-_Note__: Unfortunately, we cannot guarantee that no printing errors have occurred despite careful preparation and checking._
+_Note: Unfortunately, we cannot guarantee that no printing errors have occurred despite careful preparation and checking._
