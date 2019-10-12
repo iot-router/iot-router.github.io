@@ -1,12 +1,12 @@
-#IoT-Router Requirements Convention
+# IoT-Router Requirements Convention
 
-##Revision History
+## Revision History
 
 | **Date** | **Revision** | **Description** |
 | --- | --- | --- |
 | 2019-10-12 | Rev 1.0 | Initial Version of the Requirement Document |
 
-##Requirement types
+## Requirement types
 
 | **Status** | **Description** |
 | --- | --- |
@@ -18,7 +18,7 @@ _Note: Please keep in mind that the current SHOULD &amp; CAN requirements may al
 
 **Minimal functionality requirements on the hosting device and on/by the Smart Home Container**
 
-##Core requirements
+## Core requirements
 
 | **ID** | **Status** | **Description** |
 | --- | --- | --- |
@@ -37,7 +37,7 @@ _Note: Please keep in mind that the current SHOULD &amp; CAN requirements may al
 | G13 | MUST | Upgrade to newer or later versions of _OpenWrt_, including 19.07, within a maximum of 6 months. |
 | G14 | MUST | The initial board support package must be available at Mainline _OpenWrt_ prior to shipment to the end customer. |
 
-##Support for operation and quality of service
+## Support for operation and quality of service
 
 | **ID** | **Status** | **Description** |
 | --- | --- | --- |
@@ -57,7 +57,7 @@ _Note: Please keep in mind that the current SHOULD &amp; CAN requirements may al
 | Q14 | SHOULD | Use of instances on preferred cloud platforms for the cloud functionalities required by the manufacturer as part of the implementation for production operations. Depending on the requirements or suitability, these are e.g. Exoscale ([https://www.exoscale.com/](https://www.exoscale.com/)) or Cumulocity IoT ([https://cumulocity.com)](https://cumulocity.com)). |
 | Q15 | SHOULD | Support for remote management via TR-069 and associated additional TRs. Source code and samples for custom parameter provisioning provided. |
 
-##Hardware and related requirements
+## Hardware and related requirements
 
 | **ID** | **Status** | **Description** |
 | --- | --- | --- |
@@ -81,7 +81,7 @@ _Note: Please keep in mind that the current SHOULD &amp; CAN requirements may al
 | H18 | CAN | HDMI connection with the communication channels: Display Data Channel (DDC), Transition-Minimized Differential Signaling (TMDS), Consumer Electronics Control (CEC), HDMI Ethernet Channel (HEC)and Content protection (HDCP) according to the latest HDMI standard. |
 | H19 | CAN | Audio interfaces such as microphone with hardware kill switch and speaker that meet the requirements of leading voice assistance services. |
 
-##Developer support requirements
+## Developer support requirements
 
 | **ID** | **Status** | **Description** |
 | --- | --- | --- |
@@ -93,7 +93,7 @@ _Note: Please keep in mind that the current SHOULD &amp; CAN requirements may al
 | D6 | SHOULD | Virtualized version of platform for easy testing and debugging. |
 | D7 | SHOULD | Remote speedtest tools. |
 
-##Regulatory and other certification requirements
+## Regulatory and other certification requirements
 
 | **ID** | **Status** | **Description** |
 | --- | --- | --- |
@@ -101,7 +101,7 @@ _Note: Please keep in mind that the current SHOULD &amp; CAN requirements may al
 | R2 | MUST | Complies with all Z-Wave, Zigbee and RF standards and regulations in the specified regions/countries to be certified or approved. The certifications by testing institutes must be documented if required by the standards. |
 | R3 | SHOULD | Wi-Fi EasyMesh certification. |
 
-##Software adaptation requirements
+## Software adaptation requirements
 
 | **ID** | **Status** | **Description** |
 | --- | --- | --- |
@@ -121,16 +121,16 @@ _Note: Please keep in mind that the current SHOULD &amp; CAN requirements may al
 
 \* Well defined and comprehensive API&#39;s MUST be provided for integration into applications. If existing chip vendor driver APIs are not natively available for _OpenWrt_, the driver APIs from their Linux-based SDKs MUST be ported to _OpenWrt_ by the device vendor. The general provision of all driver APIs is done as an integrated part of the router FW Image/Build.
 
-###References:
+### References:
 
 - Z/IP Gateway SDK as part of via SiLabs development tool &quot;Simplicity Studio&quot;; current version 7.11.x
 - ZigBee SDK 6.x
 
 \*\* A safe CPU load on the host device of maximum 85% MUST be maintained under the assumption that 3-5 lightweightcontainer apps with a load comparable to the SH client are executed simultaneously.
 
-#Minimal functional requirements on the hosting device due to additional service agents, clients and apps running in a container.
+# Minimal functional requirements on the hosting device due to additional service agents, clients and apps running in a container.
 
-##Monitoring and protection service &quot;M\_namespace&quot;
+## Monitoring and protection service &quot;M\_namespace&quot;
 
 Basic requirements that apply through a protection service designed for the home network and all connected (IoT) devices.
 
@@ -145,7 +145,7 @@ Conntrack | ebtables | iptables-mod-conntrack-extra | iptables-mod-ipmark | ipta
 | M6 | SHOULD | LXC Containers are run in the same Network Space as the HOST for proper traffic steering. |
 | M7 | SHOULD | LXC Containers have to have an ability to run iptables commands. |
 
-##Channel State Information (CSI) service &quot;C\_namespace&quot;
+## Channel State Information (CSI) service &quot;C\_namespace&quot;
 
 Basic requirements that apply when Channel State Information (CSI) is supported.
 
@@ -160,7 +160,7 @@ Basic requirements that apply when Channel State Information (CSI) is supported.
 | C7 | MUST | Send and Receive ICMP packets to/from connected WiFi devices. |
 | C8 | MUST | Access to WiFi statistics of connected devices. See Channel State Information (CSI) requirement table. |
 
-##Channel State Information (CSI) requirement table
+## Channel State Information (CSI) requirement table
 
 Detail requirements that apply when Channel State Information (CSI) is supported.
 
