@@ -185,4 +185,4 @@ Detail requirements that apply when Channel State Information (CSI) is supported
 | I18    | SHOULD     | Antenna Permutation       | MUST if possible Antenna Permutation, but depending on driver and manufacturer, there may not be Antenna Permutation. |
 | I19    | SHOULD     | CSI for Multi-Devices     | Parallel reporting of WiFi statistics (including CSI) from more than one device connected. Only applies in Access Point mode. |
 
-_Note: Unfortunately, we cannot guarantee that no printing errors have occurred despite careful preparation and checking.
+*Note: Unfortunately, we cannot guarantee that no printing errors have occurred despite careful preparation and checking.*
