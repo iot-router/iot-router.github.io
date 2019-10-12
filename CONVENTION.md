@@ -16,7 +16,7 @@
 
 _Note: Please keep in mind that the current SHOULD &amp; CAN requirements may already become MUST in the course of the next tender. For fast-moving consumer goods, up to 2 tenders per year are not unusual._
 
-**Minimal functionality requirements on the hosting device and on/by the Smart Home Container**
+# Minimal functionality requirements on the hosting device and on/by the Smart Home Container
 
 ## Core requirements
 
@@ -121,7 +121,7 @@ _Note: Please keep in mind that the current SHOULD &amp; CAN requirements may al
 
 \* Well defined and comprehensive API&#39;s MUST be provided for integration into applications. If existing chip vendor driver APIs are not natively available for _OpenWrt_, the driver APIs from their Linux-based SDKs MUST be ported to _OpenWrt_ by the device vendor. The general provision of all driver APIs is done as an integrated part of the router FW Image/Build.
 
-### References:
+**References:**
 
 - Z/IP Gateway SDK as part of via SiLabs development tool &quot;Simplicity Studio&quot;; current version 7.11.x
 - ZigBee SDK 6.x
@@ -139,8 +139,7 @@ Basic requirements that apply through a protection service designed for the home
 | M1 | MUST | Requires about 1%-2% of CPU resources in average and 5% in load, based on MIPS MT7621S Single-Core 880 MHz CPU. |
 | M2 | MUST | Requires up to 16 MB of RAM resources. |
 | M3 | MUST | Requires up to 20MB, but SHOULD be 25MB, of non-volatile memory. |
-| M4 | MUST | Kernel modules, binaries and iptables extensions to include:
-Conntrack | ebtables | iptables-mod-conntrack-extra | iptables-mod-ipmark | iptables-mod-nflog | iptables-mod-nfqueue | kmod-br-netfilter | libopenssl | ca-certificates | curl |
+| M4 | MUST | Kernel modules, binaries and iptables extensions to include: Conntrack \| ebtables \| iptables-mod-conntrack-extra \| iptables-mod-ipmark \| iptables-mod-nflog \| iptables-mod-nfqueue \| kmod-br-netfilter \| libopenssl \| ca-certificates \| curl |
 | M5 | SHOULD | APIs or iptables rules to control hardware acceleration. |
 | M6 | SHOULD | LXC Containers are run in the same Network Space as the HOST for proper traffic steering. |
 | M7 | SHOULD | LXC Containers have to have an ability to run iptables commands. |
