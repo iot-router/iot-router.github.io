@@ -1,5 +1,5 @@
 # IoT-Router Requirements
-Common requirements for affordable Mobile IoT Routers with "5G NR OR 4G LTE Cat.6 upwards " to host consumer IoT Agents for Smart Home and other 3rd party Apps.
+A requirements convention must be achieved for an affordable mobile IoT Internet router and for hosting IoT agents for Smart Home and other third-party applications.
 
 ## Introduction
 
