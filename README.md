@@ -20,3 +20,5 @@ To be able to work close to the kernel, but still run 3rd party apps in a comple
 The here documents were primarily prepared as a binding supplement to tendering procedures. 
 
 Nevertheless, any industry participant who becomes aware of these documents will be invited to submit an own-initiative offer to its customers, or to have one of its partners submit it, with reference to the documents found here.
+
+If we got your attention, head over to the ![repository](https://github.com/fkroepfl/IoT-Router).
