@@ -23,5 +23,5 @@ Nevertheless, any industry participant who becomes aware of these documents will
 
 If we got your attention, head over to [the repository.](https://github.com/fkroepfl/IoT-Router)
 
-<u>References:</u>
-[IoT router gateway requirements - V1.11 - October 2019-10-09.pdf](https://github.com/fkroepfl/IoT-Router/blob/master/IoT%20router%20gateway%20requirements%20-%20V1.11%20-%20October%202019-10-09.pdf)
+*References:*
+- [IoT router gateway requirements - V1.11 - October 2019-10-09.pdf](https://github.com/fkroepfl/IoT-Router/blob/master/IoT%20router%20gateway%20requirements%20-%20V1.11%20-%20October%202019-10-09.pdf)
