@@ -21,4 +21,4 @@ The here documents were primarily prepared as a binding supplement to tendering 
 
 Nevertheless, any industry participant who becomes aware of these documents will be invited to submit an own-initiative offer to its customers, or to have one of its partners submit it, with reference to the documents found here.
 
-If we got your attention, head over to !(https://github.com/fkroepfl/IoT-Router).
+If we got your attention, head over to ![](https://github.com/fkroepfl/IoT-Router).
