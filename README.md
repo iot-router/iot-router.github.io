@@ -26,7 +26,7 @@ If we got your attention, head over to [the repository.](https://github.com/fkro
 |                     How to get involved?                     |
 | :----------------------------------------------------------: |
 | If you are missing an item in the requirement convention, something is unclear and requires better documentation or you have a better solution for a current requirement: Get Involved! |
-| **<a href='https://github.com/fkroepfl/IoT-Router/issues' class='btn btn-primary'>Raise an Issue </a>   •   <a href='https://github.com/fkroepfl/IoT-Router/pulls' class='btn btn-primary'>Open a Pull-Request</a>** |
+| **<a href='https://github.com/fkroepfl/IoT-Router/issues' class='btn btn-primary'>Raise an Issue </a> • <a href='https://github.com/fkroepfl/IoT-Router/pulls' class='btn btn-primary'>Open a Pull-Request</a>** |
 
 
 _**References:**_
