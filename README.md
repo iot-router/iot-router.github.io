@@ -15,7 +15,7 @@ This document is a requirement specification for a hosting router device to run 
 
 To be able to work close to the kernel, but still run 3rd party apps in a completely isolated environment and ensure high portability and security, containers must be used. 
 
-![OS Level Virtualisation](os_level_virtualisation.png)
+![OS Level Virtualisation](os_level_virtualization.png)
 
 The here documents were primarily prepared as a binding supplement to tendering procedures. 
 
