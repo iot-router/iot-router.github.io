@@ -123,8 +123,8 @@ _Note: Please keep in mind that the current SHOULD &amp; CAN requirements may al
 
 **References:**
 
-- Z/IP Gateway SDK as part of via SiLabs development tool &quot;Simplicity Studio&quot;; current version 7.11.x
-- ZigBee SDK 6.x
+- Z/IP Gateway SDK as part of via SiLabs development tool &quot;Simplicity Studio&quot; current version 7.11.x
+- ZigBee SDK; current version 6.x
 
 \*\* A safe CPU load on the host device of maximum 85% MUST be maintained under the assumption that 3-5 lightweightcontainer apps with a load comparable to the SH client are executed simultaneously.
 
