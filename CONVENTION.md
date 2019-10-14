@@ -41,7 +41,7 @@ _Note: Please keep in mind that the current SHOULD &amp; CAN requirements may al
 
 | **ID** | **Status** | **Description**                                              |
 | ------ | ---------- | ------------------------------------------------------------ |
-| Q1     | MUST       | Perform continuous firmware maintenance (OS, PKG, etc.) and controlled remote updates on new deliveries and in the installed base. |
+| Q1     | MUST       | Perform continuous Firmware Over-the-Air (FOTA) maintenance (OS, PKG, etc.) and controlled remote updates on new deliveries and in the installed base. |
 | Q2     | MUST       | Service procedures for providing or implementing new namespaces, changing the configuration of existing namespaces, and loading or removing associated third-party services. |
 | Q3     | MUST       | System Status Info Page with History about each SH namespace in Router&#39;s responsive Web UI, containing min. CPU Load and memory utilization (RAM/Flash). |
 | Q4     | MUST       | Reliable WAN failover/failback handling in less than 5 seconds (failover/failback must be used in case MultipathTCP is not in use or not working). |
