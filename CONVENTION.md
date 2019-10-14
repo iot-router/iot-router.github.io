@@ -2,9 +2,9 @@
 
 ## Revision History
 
-| **Date**   | **Revision** | **Description**                             |
-| ---------- | ------------ | ------------------------------------------- |
-| 2019-10-12 | Rev 1.0      | Initial Version of the Requirement Document |
+| **Date**   | **Revision** | **Description**                                        |
+| ---------- | ------------ | ------------------------------------------------------ |
+| 2019-10-12 | Rev 1.0      | Initial Version of the Requirement Convention Document |
 
 ## Requirement types
 
