@@ -28,6 +28,6 @@ If we got your attention, head over to [the requirement convention](https://gith
 | If you are missing an item in the requirement convention, something is unclear and requires better documentation or you have a better solution for a current requirement: Get Involved! |
 | **<a href='https://github.com/fkroepfl/IoT-Router/issues' class='btn btn-primary'>Raise an Issue </a> • <a href='https://github.com/fkroepfl/IoT-Router/pulls' class='btn btn-primary'>Open a Pull-Request</a>** |
 
-
+------
 _**References:**_
 - [IoT router gateway requirements - V1.11 - October 2019-10-09.pdf](https://github.com/fkroepfl/IoT-Router/blob/master/IoT%20router%20gateway%20requirements%20-%20V1.11%20-%20October%202019-10-09.pdf)
