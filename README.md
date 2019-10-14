@@ -21,7 +21,7 @@ Although the documents presented here were primarily prepared as a binding suppl
 
 All industry participants who become aware of these documents are kindly requested to contact their customers and/or partners in order to discuss the synergy potential or to participate in the further development of the convention presented here.
 
-If we got your attention, head over to [the requirement convention](https://github.com/fkroepfl/IoT-Router/blob/master/CONVENTION.md) or [the repository.](https://github.com/fkroepfl/IoT-Router)
+If we got your attention, head over to **[the requirement convention](https://github.com/fkroepfl/IoT-Router/blob/master/CONVENTION.md)** or **[the repository.](https://github.com/fkroepfl/IoT-Router)**
 
 |                     How to get involved?                     |
 | :----------------------------------------------------------: |
