@@ -11,7 +11,7 @@ This document is a requirement specification for a hosting router device to run 
 - All relevant and trendy home automation technologies integrated.
 - Powerful mobile broadband connection with LAN dual path option.
 
-| **But still extremely affordable!** |
+<center>**But still extremely affordable!**
 
 To be able to work close to the kernel, but still run 3rd party apps in a completely isolated environment and ensure high portability and security, containers must be used. 
 
