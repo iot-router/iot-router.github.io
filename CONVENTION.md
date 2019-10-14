@@ -8,11 +8,11 @@
 
 ## Requirement types
 
-| **Status** | **Description**                                             |
-| ---------- | ----------------------------------------------------------- |
-| MUST       | Mandatory requirement.                                      |
-| SHOULD     | Requirement which should be met, but which is not absolute. |
-| CAN        | Optional requirement which will strengthen the offering.    |
+| **Status** | **Description**                                                       |
+| ---------- | --------------------------------------------------------------------- |
+| MUST       | Mandatory requirement.                                                |
+| SHOULD     | Requirement which should be met, but which is not absolute.           |
+| CAN        | Optional requirement which will strengthen the offering.              |
 
 _Note: Please keep in mind that the current SHOULD &amp; CAN requirements may already become MUST in the course of the next tender. For fast-moving consumer goods, up to 2 tenders per year are not unusual._
 
