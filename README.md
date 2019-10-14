@@ -19,7 +19,7 @@ To be able to work close to the kernel, but still run 3rd party apps in a comple
 
 Although the documents presented here were primarily prepared as a binding supplement to the tendering procedures, they are also suitable for general agreement on the content of the requirements between industrial partners.
 
-All industry participants who become aware of these documents are kindly requested to contact their customers and/or partners in order to discuss the synergy potential or to participate in the further development of the convention presented here.
+All industry participants who become aware of these documents are kindly invited to contact their customers and/or partners in order to discuss the synergy potential or to participate in the further development of the convention presented here.
 
 If we got your attention, head over to **[the requirement convention](https://github.com/fkroepfl/IoT-Router/blob/master/CONVENTION.md)** or **[the repository.](https://github.com/fkroepfl/IoT-Router)**
 
