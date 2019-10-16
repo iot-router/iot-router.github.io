@@ -1,4 +1,4 @@
-# [Welcome to IoT-Router Convention Initiative!](https://iot-router.github.io/convention/)
+# [Welcome to this initiative!](https://iot-router.github.io/convention/)
 A joint creation of requirements convention for an affordable mobile IoT Internet router and for hosting IoT agents for Smart Home and other third-party applications to drive synergies between industries and projects.
 
 ## Introduction
