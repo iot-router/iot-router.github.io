@@ -1,4 +1,4 @@
-# [IoT-Router Convention](https://fkroepfl.github.io/IoT-Router/)
+# [IoT-Router Convention](https://iot-router.github.io/convention/)
 Joint creation of a requirements convention for an affordable mobile IoT Internet router and for hosting IoT agents for Smart Home and other third-party applications to drive synergies between industries and projects.
 
 ## Introduction
