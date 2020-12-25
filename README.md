@@ -1,5 +1,6 @@
-# [Welcome to this initiative!](https://iot-router.github.io/convention/)
-A joint creation of requirements convention for an affordable mobile IoT Internet router and for hosting IoT agents for Smart Home and other third-party applications to drive synergies between industries and projects.
+# [Welcome to this initiative!](https://iot-router.github.io/iot-router.github.io/)
+A joint creation of requirements 
+for an affordable mobile IoT Internet router and for hosting IoT agents for Smart Home and other third-party applications to drive synergies between industries and projects.
 
 ## Introduction
 
@@ -19,13 +20,13 @@ Although the documents presented here were primarily prepared as a binding suppl
 
 All industry participants who become aware of these documents are kindly invited to contact their customers and/or partners in order to discuss the synergy potential or to participate in the further development of the convention presented here.
 
-If we got your attention, head over to **[the requirement convention](https://github.com/iot-router/convention/blob/master/CONVENTION.md)** or **[the repository.](https://github.com/iot-router/convention)**
+If we got your attention, head over to **[the requirement convention](https://github.com/iot-router/iot-router.github.io/blob/master/CONVENTION.md)** or **[the repository.](https://github.com/iot-router/iot-router.github.io)**
 
 |                     How to get involved?                     |
 | :----------------------------------------------------------: |
 | If you are missing an item in the requirement convention, something is unclear and requires better documentation or you have a better solution for a current requirement: Get Involved! |
-| **<a href='https://github.com/iot-router/convention/issues' class='btn btn-primary'>Raise an Issue </a> • <a href='https://github.com/iot-router/convention/pulls' class='btn btn-primary'>Open a Pull-Request</a>** |
+| **<a href='https://github.com/iot-router/iot-router.github.io/issues' class='btn btn-primary'>Raise an Issue </a> • <a href='https://github.com/iot-router/iot-router.github.io/pulls' class='btn btn-primary'>Open a Pull-Request</a>** |
 
 ------
 _**References:**_
-- [IoT router gateway requirements - V1.11 - October 2019-10-09.pdf](https://github.com/iot-router/convention/blob/master/IoT%20router%20gateway%20requirements%20-%20V1.11%20-%20October%202019-10-09.pdf)
+- [IoT router gateway requirements - V1.11 - October 2019-10-09.pdf](https://github.com/iot-router/iot-router.github.io/blob/master/IoT%20router%20gateway%20requirements%20-%20V1.11%20-%20October%202019-10-09.pdf)
