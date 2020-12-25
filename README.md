@@ -25,7 +25,7 @@ If we got your attention, head over to **[the requirement convention](https://gi
 |                     How to get involved?                     |
 | :----------------------------------------------------------: |
 | If you are missing an item in the requirement convention, something is unclear and requires better documentation or you have a better solution for a current requirement: Get Involved! |
-| **<a href='https://github.com/iot-router/iot-router.github.io/issues' >Raise an Issue </a> • <a href='https://github.com/iot-router/iot-router.github.io/pulls' >Open a Pull-Request</a>** |
+| **[Raise an Issue](https://github.com/iot-router/iot-router.github.io/issues) • [Open a Pull-Request](https://github.com/iot-router/iot-router.github.io/pulls)** |
 
 ------
 _**References:**_
