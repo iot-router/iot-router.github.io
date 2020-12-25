@@ -20,7 +20,7 @@ Although the documents presented here were primarily prepared as a binding suppl
 
 All industry participants who become aware of these documents are kindly invited to contact their customers and/or partners in order to discuss the synergy potential or to participate in the further development of the convention presented here.
 
-If we got your attention, head over to **[the requirement convention](https://github.com/iot-router/iot-router.github.io/blob/master/CONVENTION.md)** or **[the repository.](https://github.com/iot-router/iot-router.github.io)**
+If we got your attention, head over to **[the requirement convention](https://github.com/iot-router/iot-router.github.io/blob/master/CONVENTION.md)** or **[the repository.](https://github.com/iot-router/)**
 
 |                     How to get involved?                     |
 | :----------------------------------------------------------: |
