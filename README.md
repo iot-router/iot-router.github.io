@@ -1,6 +1,6 @@
 |                         Latest news:                         |
 | :----------------------------------------------------------: |
-| Perenio's Multifunction Router Elegance is to become IoT router convention compliant. For details visit the repository:<br />[perenio.elegance](https://github.com/iot-router/perenio.elegance) |
+| Perenio's Multifunction Router Elegance is to become IoT router convention compliant. For details visit the repository: [perenio.elegance](https://github.com/iot-router/perenio.elegance) |
 
 # Welcome to this initiative!
 A joint creation of requirements 
